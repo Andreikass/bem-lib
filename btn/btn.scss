@@ -15,12 +15,16 @@
 	border-radius: 2px;
 	background-color: gray;
 	box-sizing: border-box;
-	outline: none;
 
 	/* 5 Animation*/
 	transition: all 0.6s;
 }
 .btn:hover {
+	/* 6 Sundry */
+	opacity: 0.8;
+	cursor: pointer;
+}
+.btn:active {
 	/* 6 Sundry */
 	opacity: 0.8;
 	cursor: pointer;

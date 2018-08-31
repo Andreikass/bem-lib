@@ -6,14 +6,14 @@
 
 	/* 3 Typography */
 	font-family: $font-main;
-	color: red;
+	color: #ffffff;
 	text-decoration: none;
 	text-transform: uppercase;
 
 	/* 4 Visual */
 	border: 1px solid red;
 	border-radius: 2px;
-	background-color: gray;
+	background-color: red;
 	box-sizing: border-box;
 
 	/* 5 Animation*/
@@ -24,10 +24,14 @@
 	opacity: 0.8;
 	cursor: pointer;
 }
+.btn:focus {
+	/* 6 Sundry */
+	outline: 4px solid gray;
+}
 .btn:active {
 	/* 6 Sundry */
-	opacity: 0.8;
-	cursor: pointer;
+	border-radius: 2px;
+	outline: 4px solid #000000;
 }
 .btn__text {
 	/* 2 Block model */

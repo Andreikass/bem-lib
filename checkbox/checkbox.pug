@@ -1,6 +1,6 @@
-mixin checkbox(text)
+mixin checkbox(data)
 	div.checkbox(class!=attributes.class)
-		label
-			input(type="checkbox" hidden) 
-			span
-			!=text
+		label(for!=data.for class=checkbox__item)
+			input(type="checkbox" name=data.name id!=data.id) 
+			span.checkbox__text
+			!=data.text

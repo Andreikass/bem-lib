@@ -1,3 +1,6 @@
-span.checkbox
-	label(for="checkbox" class="checkbox__item")
-		input(type="checkbox" name="compliance" id="checkbox")
+mixin checkbox(text)
+	div.checkbox(class!=attributes.class)
+		label
+			input(type="checkbox" hidden) 
+			span
+			!=text

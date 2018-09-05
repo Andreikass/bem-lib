@@ -28,6 +28,14 @@
 	/* 4 Visual */
 	border: 2px solid black;
 }
+.input input:focus {
+	/* 4 Visual */
+	outline: 2px solid #fc0;
+}
+.input input:active {
+	/* 4 Visual */
+	outline: 3px solid gray;
+}
 .input input::-webkit-input-placeholder {
 	/* 3 Typography */
   color:  red;

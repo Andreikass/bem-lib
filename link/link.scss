@@ -7,11 +7,11 @@
 	/* 3 Typography */
 	text-decoration: underline;
 }
+.link:focus {
+	/* 3 Typography */
+	outline: 2px solid #fc0;
+}
 .link:active {
 	/* 3 Typography */
 	color: gray;
-}
-.link:visited {
-	/* 3 Typography */
-	color: red;
 }

@@ -1,7 +1,9 @@
 .btn {
 	/* 2 Block model */
-	display: inline-block;
-	padding: 0;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px 40px;
 	box-sizing: border-box;
 
 	/* 3 Typography */
@@ -9,15 +11,18 @@
 	color: #ffffff;
 	text-decoration: none;
 	text-transform: uppercase;
+	white-space: nowrap;
 
 	/* 4 Visual */
 	border: 1px solid red;
 	border-radius: 2px;
 	background-color: red;
-	box-sizing: border-box;
 
 	/* 5 Animation*/
 	transition: all 0.6s;
+
+	/* 6 Misc */
+	user-select: none;
 }
 .btn:hover {
 	/* 6 Sundry */
@@ -34,14 +39,11 @@
 	outline: 4px solid #000000;
 }
 .btn__text {
-	/* 2 Block model */
-	margin: 0 14px;
-	
 	/* 3 Typography */
 	font-family: $font-main;
-	font-size: 11px;
+	font-size: 14px;
 	font-weight: 400;  
-	line-height: 32px;
+	line-height: 20px;
 }
 .icon+.btn__text {
 	/* 2 Block model */
